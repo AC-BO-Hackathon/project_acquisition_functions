@@ -1,17 +1,28 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14509158)
-# Intro to GitHub Classroom
-This example project is written in Python, and tested with [pytest](https://www.python.org/).
+# AC-BO-HACKATHON-2024
+## Project 17: Comparative Analysis of Acquisition Functions in Bayesian Optimization for Drug Discovery
 
-## The assignment
+### Abstract
+This project conducts a comparative analysis of acquisition functions in Bayesian Optimization (BO) for drug discovery, focusing on small, diverse, unbalanced, and noisy datasets. It evaluates the impact of different acquisition functions, molecular featurization methods, and applicability domain (AD) to uncover optimal strategies for employing AF effectively in drug discovery challenges.
 
-The test in [`hello_test.py`](hello_test.py) is failing right now because the function in [`hello.py`](hello.py) isn't outputting the correct string. Fix this function and run the `pytest` command in the terminal to make the tests green.
+### Installation
+### Installation using individual packages:
+To install an editable version of the package, run the following command:
+```bash
+pip install PyTDC==0.3.6
+pip install xgboost
+pip install torch
+pip install gpytorch
+pip install requests
+```
+### Tutorial
+!python main.py (assuming you updated correct data_loader) for model building
 
-Next, open the "Source Control" button on the left sidebar, write a commit message, and commit and push your changes to GitHub.
+### References
+- Hugo Bellamy (2022), "Batched Bayesian Optimization for Drug Design in Noisy Environments," J Chem Inf Model. 2022 Sep 12; 62(17): 3970–3981.
 
-![](commit-and-push.gif)
-
-After committing and pushing your changes, the autograder will run your tests and give you a grade. To check your autograded scores, click on the GitHub Actions extension on the left sidebar, click the refresh button at the top-right corner of the sidebar, hover over the latest workflow run, and click the globe icon 🌐. Next, click the "Autograding" job button, click the dropdown for the "Run education/autograding" step, and scroll down to see your grade.
-
-![](github-actions-extension.gif)
-
-▶️ If you get stuck, refer to [the walkthrough video](https://github.com/AC-Classroom/intro-github-classroom/assets/45469701/93760bf7-0d27-49dc-8f66-7d50d428677f).
+### Contributors
+- Jan Christopher Spies, University of Muenster
+- Jakub Lála, Imperial College London
+- Yunheng Zou, University of Waterloo
+- Luis Walter, Heidelberg University
+- Curtis Chong, University of Waterloo
